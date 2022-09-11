@@ -11,7 +11,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git 'https://github.com/sahmed448/kubernetesproject.git'
+        git 'https://github.com/sahmed448/nodeapp_test.git'
       }
     }
 
